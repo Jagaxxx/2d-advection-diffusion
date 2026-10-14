@@ -16,15 +16,7 @@ The project focuses on numerical discretization methods and the visualisation of
 
 The simulation is based on the two-dimensional advection-diffusion equation:
 
-$$
-\frac{\partial C}{\partial t}
-+ v_x \frac{\partial C}{\partial x}
-+ v_y \frac{\partial C}{\partial y}
-= D \left(
-\frac{\partial^2 C}{\partial x^2}
-+ \frac{\partial^2 C}{\partial y^2}
-\right)
-$$
+$$\frac{\partial C}{\partial t} + v_x \frac{\partial C}{\partial x} + v_y \frac{\partial C}{\partial y} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} \right)$$
 
 where:
 
